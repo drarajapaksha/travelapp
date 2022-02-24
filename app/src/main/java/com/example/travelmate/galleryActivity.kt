@@ -41,7 +41,6 @@ class galleryActivity : AppCompatActivity() {
             val intent = Intent(this, sigiriyaActivity::class.java)
             startActivity(intent)
         }
-
         places.setOnClickListener()
         {
             val intent = Intent(this,galleryActivity::class.java)

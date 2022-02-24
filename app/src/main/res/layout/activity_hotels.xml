@@ -29,11 +29,12 @@
         tools:ignore="MissingConstraints" />
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="403dp"
         android:layout_height="232dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fillViewport="true"
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,7 +43,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -51,12 +52,70 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/araliyagreenhills" />
 
-            <ImageView android:layout_margin=""
+            <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="230dp"
                 android:layout_height="203dp"
                 android:layout_weight="1"
-                />
+                app:srcCompat="@drawable/chamila" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="230dp"
+                android:layout_height="203dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cinnamongrand" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="230dp"
+                android:layout_height="203dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/grand" />
+
         </LinearLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="404dp"
+        android:layout_height="140dp"
+        android:text="Book your Hotel in Slovenia online. No Reservation Costs. Great Rates. No Booking Fees. Hotels. Best Price Guarantee. Bed and Breakfasts. Apartments. Secure Booking. Hostels. 24/7 Customer Service. Motels. Read Real Guest Reviews. Types: Hotels, Apartments, Villas."
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:text="Hotels"
+        android:textAlignment="center"
+        android:textColor="#7332E6"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/place1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Places"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/hotel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotels"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="70dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
