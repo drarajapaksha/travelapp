@@ -18,32 +18,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.028" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="255dp"
+        android:layout_height="159dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326"
+        app:layout_constraintVertical_bias="0.18"
         app:srcCompat="@drawable/araliyagreenhills" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="300dp"
-        android:layout_height="163dp"
-        android:text="Araliya Green Hills Hotel is a beautiful property surrounded by lush greenery. The accommodation welcomes guests with a spa. Free internet access is available throughout the hotel"
-        android:textAlignment="center"
-        android:textColor="#030615"
-        android:textSize="18dp"
-        android:textStyle="bold"
+    <DatePicker
+        android:id="@+id/datapicker"
+        android:layout_width="291dp"
+        android:layout_height="326dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="calendar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.906"
+        tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
