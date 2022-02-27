@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/drawable/dropdown_item.xml" value="0.11851851851851852" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/drawable/searchview_backgroud.xml" value="0.26614583333333336" />
-        <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_araliya.xml" value="0.25" />
+        <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_araliya.xml" value="0.264" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_gallery.xml" value="0.264" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_hotels.xml" value="0.25" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_login.xml" value="0.264" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_ruwanwali.xml" value="0.25" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_sigiriya.xml" value="0.25" />
         <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Campus/3rd year/1st semester/Mobile Application Development/TravelMate/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
       </map>
     </option>
   </component>
