@@ -33,16 +33,29 @@
 
     <DatePicker
         android:id="@+id/datapicker"
-        android:layout_width="291dp"
-        android:layout_height="326dp"
+        android:layout_width="206dp"
+        android:layout_height="204dp"
         android:calendarViewShown="false"
         android:datePickerMode="calendar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906"
+        app:layout_constraintVertical_bias="0.631"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/checkindate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Check-in-date"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
