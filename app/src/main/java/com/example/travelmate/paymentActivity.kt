@@ -35,5 +35,6 @@ class paymentActivity : AppCompatActivity() {
             cash.setText("")
             cancel.setText("")
         }
+
     }
 }

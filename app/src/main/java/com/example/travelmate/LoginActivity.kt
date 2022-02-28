@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
             if(username.text.isNullOrEmpty() || password.text.isNullOrEmpty()){
                 val toast = Toast.makeText(applicationContext,"Please enter username and password", Toast.LENGTH_LONG).show()
             }
-            else if(password.text.length != 8)//not working
+            else if(password.text.length != 8)
             {
                 val toast = Toast.makeText(applicationContext,"Not valid password", Toast.LENGTH_LONG).show()
             }
