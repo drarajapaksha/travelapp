@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelMate">
         <activity
+            android:name=".paymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".araliyaActivity"
             android:exported="false" />
         <activity

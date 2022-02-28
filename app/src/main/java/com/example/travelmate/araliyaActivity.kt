@@ -28,17 +28,18 @@ class araliyaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_araliya)
 
+        val book = findViewById<Button>(R.id.book)
         //get reference to the string array that we just created
-        val adults = resources.getStringArray(R.array.Adults)
+        //val adults = resources.getStringArray(R.array.Adults)
         //create an array adapter  and pass the required parameter
         //in our case pass the context, drop down layout, and array
         //val arrayAdapter = findViewById<ArrayAdapter>(R.layout.dropdown_item)
         //get reference to the autocomplete text view
-        val autoCompleteTV = findViewById<AutoCompleteTextView>(R.id.autoCompleteTextView)
+        //val autoCompleteTV = findViewById<AutoCompleteTextView>(R.id.autoCompleteTextView)
         //set adapter to the autocomplete tv to the adapter
         //autoCompleteTV.setAdapter(arrayAdapter)
 
-        val dataPicker = findViewById<DatePicker>(R.id.datapicker)
+        //val dataPicker = findViewById<DatePicker>(R.id.datapicker)
         /*val today = get()
         dataPicker.init(today.get(Calendar.YEAR), today.get(Calendar.MONTH), today.get(Calendar.DAY_OF_MONTH))
         {
@@ -51,6 +52,10 @@ class araliyaActivity : AppCompatActivity() {
 
         }
        */
+        book.setOnClickListener(){
+            val intent = Intent(this,paymentActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
